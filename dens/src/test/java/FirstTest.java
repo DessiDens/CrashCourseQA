@@ -21,7 +21,7 @@ public class FirstTest {
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 
         String nameOfFirstLink = driver.FindElement(By.className("LC201b")).getText();
-        Assert.assertEquals(nameOfFirstLink,"SoftServe:Home");
+        Assert.assertEquals(nameOfFirstLink,"Школа програмування : SoftServe провідна IT-компанія");
 
         driver.close();
     }
